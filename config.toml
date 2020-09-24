@@ -1,0 +1,32 @@
+#baseURL = "https://master.d24ltnpdigr6ti.amplifyapp.com/"
+baseURL = "/sap400/"
+languageCode = "ko-KR"
+defaultContentLanguage = "ko"
+
+title = "SAP HANA on AWS Advanced WorkShop"
+theme = "hugo-theme-learn"
+themesdir = "."
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+#ignoreFiles = [ "\\.*lab3\\.*" ]
+
+[params]
+  description = "SAP HANA on AWS Advanced WorkShop"
+  author = "Sejun Kim"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  themeVariant = "aws"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages.ko]
+title = "SAP HANA on AWS Advanced WorkShop"
+weight = 1
+languageName = "한국어"
+
+[[Languages.ko.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credit"
+url = "/credits/"
+weight = 30
