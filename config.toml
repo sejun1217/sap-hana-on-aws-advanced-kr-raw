@@ -1,5 +1,5 @@
-#baseURL = "https://master.d24ltnpdigr6ti.amplifyapp.com/"
-baseURL = "/sap400/"
+baseURL = "https://master.d24ltnpdigr6ti.amplifyapp.com/"
+#baseURL = "/sap400/"
 languageCode = "ko-KR"
 defaultContentLanguage = "ko"
 
